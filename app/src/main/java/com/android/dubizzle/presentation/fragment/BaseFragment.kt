@@ -10,7 +10,7 @@ import com.android.dubizzle.presentation.activity.DubizzleActivity
 /**
  *   Created by Mohd Farhan on 22/01/2021.
  */
-abstract class BaseFragment : Fragment() {
+abstract class BaseFragment : Fragment() , View.OnClickListener{
 
     var loaderView : View? = null;
 

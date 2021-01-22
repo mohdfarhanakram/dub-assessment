@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Dubizzle</string>
+    <string name="default_error_msg">Something went wrong with the api</string>
+    <string name="item">item</string>
 </resources>
