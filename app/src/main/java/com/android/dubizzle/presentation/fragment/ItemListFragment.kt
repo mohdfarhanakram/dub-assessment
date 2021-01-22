@@ -68,7 +68,10 @@ class ItemListFragment : BaseFragment() {
     }
 
     override fun onClick(view: View?) {
-        //val item = view?.tag as Item
+        val item = view?.tag as Item
+        getNavController()
+            ?.navigate(ItemListFragmentDirections
+                .actionItemToDetail(item.name,item.price,item.imageUrls.get(0)))
     }
 
     override fun onCreate(@Nullable savedInstanceState: Bundle?) {
