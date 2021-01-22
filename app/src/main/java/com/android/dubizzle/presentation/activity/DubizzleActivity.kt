@@ -1,10 +1,9 @@
-package com.android.dubizzle.presentation
+package com.android.dubizzle.presentation.activity
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.android.dubizzle.R
 
-class MainActivity : AppCompatActivity() {
+class DubizzleActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
